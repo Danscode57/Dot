@@ -25,7 +25,5 @@ jobs:
    - name: Upload Debug APK
     uses: actions/upload-artifact@v4
     with:
-      name: app-debug-apk
-      path: "**/build/outputs/apk/debug/*.apk"
-      if-no-files-found: error - name: Build with Gradle
-      run: ./gradlew build
+      
+      Run /gradlew build
